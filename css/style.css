@@ -1,0 +1,57 @@
+body {
+  background-color: #ddd;
+}
+
+.colorful {
+  background-color: rgb(240, 200, 100);
+  animation: colorful infinite 10s linear;
+}
+
+.main {
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../img/create-3026190_1280.jpg");
+
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.description {
+  background-image: url("../img/home-office-599475.jpg");
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.invitation {
+  background-image: url("../img/laptop-1035345_1280.jpg");
+
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.light {
+  color: #eee;
+}
+
+.big {
+  font-size: 4em;
+}
+
+.medium {
+  font-size: 2em;
+}
+
+.dark-shadow {
+  text-shadow: #222 0 0 10px;
+}
+
+@keyframes colorful {
+  0% { filter: hue-rotate(0deg); }
+
+  100% { filter: hue-rotate(360deg); }
+}
